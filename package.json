@@ -1,15 +1,12 @@
 {
-  "repository": "https://github.com/electron/fiddle-core",
-  "homepage": "https://github.com/electron/fiddle-core#readme",
-  "author": "Charles Kerr <charles@charleskerr.com>",
+  "repository": "https://github.com/VerteDinde/fiddle-core",
+  "homepage": "https://github.com/VerteDinde/fiddle-core#readme",
+  "author": "VerteDinde <vertedinde@electronjs.org>",
   "license": "MIT",
-  "name": "fiddle-core",
-  "version": "0.0.2",
+  "name": "@vertedinde/fiddle-core",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "types": "dist/fiddle-core.d.ts",
-  "files": [
-    "dist/**/*"
-  ],
   "scripts": {
     "build": "tsc -b",
     "docs": "api-extractor run --local",
